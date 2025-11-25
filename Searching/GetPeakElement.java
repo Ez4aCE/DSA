@@ -9,7 +9,7 @@ public class GetPeakElement {
             int mid = left+(right-left)/2;
 
             if((mid==0 || arr[mid]>arr[mid-1]) && (mid==arr.length-1 || arr[mid]>arr[mid+1]) ){
-                return mid;
+                return arr[mid];
 
             }
             if(arr[mid]<arr[mid+1]){
@@ -22,7 +22,7 @@ public class GetPeakElement {
         return -1;
     }
     public static void main(String[] args) {
-        int[] arr ={11,12,10,1,5};
+        int[] arr ={11,12,10};
         System.out.println(getPeak(arr));
     }
 }
