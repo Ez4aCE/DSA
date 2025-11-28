@@ -22,7 +22,7 @@ public class Main {
             int k=-1;
             for(int j=0;j<len-1;j++){
                 int left=prefixArr[j];
-                if
+                
                 int right=prefixArr[len-1]/left;
                 if(left==right){
                     k=j+1;
