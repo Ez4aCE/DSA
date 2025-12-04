@@ -1,3 +1,5 @@
+package Hashing;
+
 import java.util.HashSet;
 
 public class LongestConsecutiveSubsequence {
