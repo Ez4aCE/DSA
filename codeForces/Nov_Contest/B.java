@@ -14,7 +14,7 @@ public class B {
                 int num=sc.nextInt();
                 set.add(num);
             }
-            System.out.println(null);
+            System.out.println();
         }
     }
 }
